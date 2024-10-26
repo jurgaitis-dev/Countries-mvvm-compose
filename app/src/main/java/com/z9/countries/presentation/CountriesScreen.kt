@@ -12,7 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.z9.countries.presentation.components.common.Toolbar
-import com.z9.countries.ui.theme.ContriesTheme
+import com.z9.countries.ui.theme.CountriesTheme
 
 @ExperimentalMaterial3Api
 @Composable
@@ -43,7 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ContriesTheme {
+    CountriesTheme {
         Greeting("Android")
     }
 }
