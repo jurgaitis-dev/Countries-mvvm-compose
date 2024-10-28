@@ -1,4 +1,4 @@
-package com.z9.countries.presentation.components.common
+package com.z9.countries.presentation.components.country
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
