@@ -15,8 +15,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.z9.countries.R
 import com.z9.countries.domain.model.Country
-import com.z9.countries.presentation.components.common.CountryBodyItemView
-import com.z9.countries.presentation.components.common.CountryTitleItemView
+import com.z9.countries.presentation.components.country.CountryBodyItemView
+import com.z9.countries.presentation.components.country.CountryTitleItemView
 import com.z9.countries.presentation.components.common.Toolbar
 import com.z9.countries.ui.theme.CountriesTheme
 
